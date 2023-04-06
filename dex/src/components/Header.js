@@ -7,10 +7,10 @@ function Header() {
   return (
     <header>
       <div className= "leftH">
-        <img src={Logo} alt='logo for exchange' className="logo"/>
+        
 
         <Link to ="/" className='link'>
-          <div className="headerItem">Swap</div>
+          <div className="headerItem">Buy</div>
         </Link>
 
         <Link to ="/tokens" className='link'>
